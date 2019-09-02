@@ -1,7 +1,7 @@
 <?php 
-    $base_salary = 4500;
-    $acc_salary_a = $base_salary + 1200;
-    $acc_salary_b = $base_salary + 1500.;
+    define('base_salary' , 4500);
+    $acc_salary_a = base_salary + 1200;
+    $acc_salary_b = base_salary + 1500.;
     echo $acc_salary_a . " is the accumulated salary for A";
 
     echo $acc_salary_b . " is the accumulated salary for B";
