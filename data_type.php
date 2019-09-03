@@ -19,14 +19,4 @@
     $money_earn_b = $earn_b * $five;
     echo $money_earn_a . " is the amount earned by A in 5 days";
     echo $money_earn_b . " is the amount earned by B in 5 days";
-    $a = 5;
-    $b = ++$a;
-    $c = $a;
-    echo $c;
-    $statement = true;
-    echo ! $statement;
-    define('salary' , 3.147);
-    $r = 5;
-    $money = salary * $r *$r;
-    echo $money;
 ?>
