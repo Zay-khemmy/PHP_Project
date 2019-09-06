@@ -45,9 +45,6 @@
     print_r($weights);
 
     // another option for least weight
-        function get_weight($weights){
-            return ($weights);
-        }
         $weights = array("cat" => "65", "dog" => "72", "sheep" => "40");
-        echo min(65,72, 40);
+        echo min($weights);
 ?>
