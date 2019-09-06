@@ -19,6 +19,21 @@
         }
         return $weight;
     }
+    
+
+    function animals($animals){
+
+        if($animals == "cat"){
+            $weight = 65;
+        }else if($animals == "dog"){
+            $weight = 72;
+        }else if($animals == "sheep"){
+            $weight = 40;
+        }else {
+            $weight = 0;
+        }
+        
+    }
 
     // animal with the least weight
     
@@ -30,5 +45,9 @@
     print_r($weights);
 
     // another option for least weight
+        function get_weight($weights){
+            return ($weights);
+        }
+        $weights = array("cat" => "65", "dog" => "72", "sheep" => "40");
         echo min(65,72, 40);
 ?>
