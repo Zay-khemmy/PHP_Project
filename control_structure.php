@@ -32,19 +32,14 @@
         }else {
             $weight = 0;
         }
-        
+        return $weight;
+        //return statement missing
     }
-
-    // animal with the least weight
     
-    function getWeight($weights){
-        return ($weights);
-    }
-    $weights = array("cat" => "65", "dog" => "72", "sheep" => "40");
-    sort($weights);
-    print_r($weights);
-
-    // another option for least weight
+    // animal with the least weight
         $weights = array("cat" => "65", "dog" => "72", "sheep" => "40");
-        echo min($weights);
+        $value = min($weights);
+        $key = array_search($value, $weights);
+        echo $key;
+
 ?>
