@@ -1,5 +1,5 @@
 <?php 
-   // calculating with operations
+   // calculating with operations 
    function calculator($operation, $a, $b){
         switch($operation){
             case "add":
@@ -21,6 +21,6 @@
             default:
             echo "invalid action";
         }
-        echo $result;
+        return $result;
     }
-?>
+    
