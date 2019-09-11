@@ -19,8 +19,8 @@
             break;
             
             default:
-            echo "invalid action";
+            $result = "invalid action";
         }
         return $result;
     }
-    
+?>
