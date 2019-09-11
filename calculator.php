@@ -1,7 +1,8 @@
 <?php 
    // calculating with operations 
    function calculator($operation, $a, $b){
-        switch($operation){
+       $convert = strtolower($operation);
+        switch($convert){
             case "add":
             $result = $a + $b;
             break;
@@ -23,4 +24,5 @@
         }
         return $result;
     }
+    echo calculator('ADd', 4, 3);
 ?>
