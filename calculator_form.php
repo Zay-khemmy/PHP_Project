@@ -14,13 +14,14 @@
         <input type="text" name="b">  <br>
         Action
         <select name="operation">
-                <option value="add">Add</option>
-                <option value="subtract">Subtract</option>
-                <option value="multiply">Multiply</option>
-                <option value="divide">Divide</option>
-            </select> <br>
-          <input type="hidden" name="calculator" value="1" />
-          <input type="submit" value="Calculate">
+            <option value="">Please select</option>
+            <option value="add">Add</option>
+            <option value="subtract">Subtract</option>
+            <option value="multiply">Multiply</option>
+            <option value="divide">Divide</option>
+        </select> <br>
+        <!-- <input type="hidden" name="calculator" value="1" /> -->
+        <input type="submit" value="Calculate" name="calculator">
     </form>
 </body>
 </html>
